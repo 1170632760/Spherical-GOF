@@ -106,8 +106,13 @@ dependencies are kept under `submodules/`.
 
 We evaluate on
 [OmniBlender](https://github.com/changwoonchoi/EgoNeRF) and
-[OmniPhotos](https://github.com/cr333/OmniPhotos). Each prepared scene should
-have the following layout:
+[OmniPhotos](https://github.com/cr333/OmniPhotos).
+
+Our real-world [OmniRob](https://huggingface.co/datasets/nanyuan016/OmniRob)
+dataset, captured with UAV and quadruped platforms, is also publicly available
+on Hugging Face.
+
+Each prepared scene should have the following layout:
 
 ```text
 scene/
